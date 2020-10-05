@@ -1,9 +1,7 @@
 <?php
-//Student Number = 300304749
-//Name = Manvir Singh Heer
 
 /* This function will parse the string from our file into a multi-dimensional array. */
-function parseItems_mhe_49($fileContents)
+function parseItems($fileContents)
 {
 
     $items = array();
