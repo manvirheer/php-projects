@@ -1,7 +1,7 @@
 <?php
 
 //header
-function html_header$title = "Receipt Generator")
+function html_header($title = "Receipt Generator")
 { ?>
 
     <!doctype html>
@@ -31,7 +31,7 @@ function html_header$title = "Receipt Generator")
 
 
 //form
-function html_form_mhe_49()
+function html_form()
 { ?>
         <div class="container">
             <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" enctype="multipart/form-data">
