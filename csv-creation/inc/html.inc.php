@@ -1,9 +1,7 @@
 <?php
-//Student Number = 300304749
-//Name = Manvir Singh Heer
 
 //header
-function html_header_mhe_49($title = "Lab04 - Receipt Generator")
+function html_header$title = "Receipt Generator")
 { ?>
 
     <!doctype html>
@@ -45,7 +43,7 @@ function html_form_mhe_49()
     <?php }
 
 //table
-function html_table_mhe_49($items)
+function html_table($items)
 { ?>
         <div class="container">
             <table class="table table-sm table-striped">
@@ -96,7 +94,7 @@ function html_table_mhe_49($items)
         </div>
     <?php }
 
-function html_showErrors_mhe_49($errors)
+function html_showErrors($errors)
 { ?>
         <div class="container">
             <div class="alert alert-danger" role="alert">
@@ -115,7 +113,7 @@ function html_showErrors_mhe_49($errors)
 
 
 //footer
-function html_footer_mhe_49()
+function html_footer()
 { ?>
         </div>
         <!-- Optional JavaScript -->
