@@ -1,9 +1,8 @@
 <?php
-//Student Number = 300304749
-//Name = Manvir Singh Heer
+
 
 //read the file
-function read_mhe_49($fileName)
+function read($fileName)
 {
 
     try {
@@ -26,7 +25,7 @@ function read_mhe_49($fileName)
 
 //write on the file
 //$fileContent should be a string
-function write_mhe_49( $fileContent)
+function write( $fileContent)
 {
 
     try {
