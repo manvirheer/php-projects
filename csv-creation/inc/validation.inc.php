@@ -1,8 +1,7 @@
 <?php
-//Student Number = 300304749
-//Name = Manvir Singh Heer
 
-function validate_mhe_49() {
+//Returns the errors
+function validate() {
     $errors = array();
 
     if (empty($_FILES['fileToUpload']['tmp_name'])) { //No File selected
